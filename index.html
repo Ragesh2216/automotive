@@ -1,0 +1,1623 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Auto Parts & Performance Tuning - STACKLY</title>
+    <meta name="description" content="Providing top-tier performance tuning, precision-engineered parts, and custom modifications for automotive enthusiasts. Your Style, Our Priority.">
+    <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css?v=2">
+    <link rel="stylesheet" href="css/loading.css">
+</head>
+<body>
+
+    <!-- Scroll Progress Indicator Bar -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="page-scroll-indicator"></div>
+    </div>
+
+    <!-- Main Outer Wrapper -->
+    <div class="site-wrapper" id="page-wrapper-container">
+        
+        <!-- Full-Bleed Hero Background Image (Exact design asset from screenshot) -->
+        <div class="hero-background-image" id="hero-bg-img" data-parallax-speed="0.015" aria-hidden="true"></div>
+
+        <!-- Floating Pill-Shaped Navbar Header -->
+        <header class="navbar-wrapper reveal-fade">
+            <div class="navbar-pill" id="navbar-pill-element">
+                <a href="#" class="navbar-brand" id="stackly-logo-home"><img src="assets/home/stackly logo orange.webp" alt="STACKLY Logo" class="brand-logo-img"></a>
+                
+                                <nav class="navbar-links" id="main-nav-links">
+                    <a href="index.html" class="nav-item active" id="nav-item-home">Home</a>
+                    <a href="about.html" class="nav-item " id="nav-item-about">About us</a>
+                    <a href="service.html" class="nav-item " id="nav-item-services">Service</a>
+                    <a href="products.html" class="nav-item " id="nav-item-products">Products</a>
+                    <a href="blog.html" class="nav-item " id="nav-item-blog">Blog</a>
+                    <a href="contact.html" class="nav-item " id="nav-item-contact">Contact</a>
+                    <!-- Mobile Nav Actions -->
+                    <div class="mobile-nav-actions">
+                        <a href="cart.html" class="btn-mobile-cart" style="color: var(--primary-dark); font-weight: 600; margin-bottom: 10px; display: block; text-decoration: none;"><i class="fa-solid fa-bag-shopping"></i> Cart</a>
+                        <a href="login.html" class="btn-login">Login</a>
+                        <a href="signup.html" class="btn-signup">Signup</a>
+                    </div>
+                </nav>
+
+                                <div class="navbar-actions">
+                    <a href="cart.html" class="btn-cart-nav" id="btn-navbar-cart" aria-label="View Cart" style="position: relative; margin-right: 20px; color: var(--primary-dark); font-size: 1.25rem; display: inline-flex; align-items: center; text-decoration: none; transition: var(--transition-quick);">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span class="cart-badge" id="nav-cart-count" style="position: absolute; top: -8px; right: -10px; background-color: var(--primary); color: white; border-radius: 50%; width: 16px; height: 16px; display: none; align-items: center; justify-content: center; font-size: 0.65rem; font-weight: 700;">0</span>
+                    </a>
+                    <a href="login.html" class="btn-login" id="btn-navbar-login">Login</a>
+                    <a href="signup.html" class="btn-signup" id="btn-navbar-signup">Signup</a>
+                    
+                    <button class="menu-hamburger" id="nav-menu-hamburger" aria-label="Toggle Navigation Menu" aria-expanded="false">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero-container" id="hero-section-trigger">
+            <!-- Blurry Glowing Heart behind the text card (exact screenshot design) -->
+            <div class="glowing-heart-behind-card" id="heart-glow-bg" data-parallax-speed="0.015">
+                <svg viewBox="0 0 100 100" fill="var(--primary-light)" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50 85 C 50 85, 12 55, 12 32 A 20 20 0 0 1 50 20 A 20 20 0 0 1 88 32 C 88 55, 50 85, 50 85 Z" />
+                </svg>
+            </div>
+            
+            <div class="hero-layout" id="hero-layout-3d-frame">
+                
+                <!-- Hero Left: Content Card -->
+                <div class="hero-card-column">
+                    <div class="hero-text-card reveal-slide-up" id="hero-card-element">
+                        <h1 class="reveal-text delay-1" id="anim-headline">Your Ride, <span class="text-gold">Our Passion</span></h1>
+                        <h2 class="reveal-text delay-2" id="anim-subheadline">Premium Parts for a <span class="text-gold-light">High-Octane Drive</span></h2>
+                        <p class="reveal-text delay-3" id="anim-description">Providing top-tier performance tuning, precision-engineered parts, and custom modifications for automotive enthusiasts.</p>
+                        
+                        <div class="hero-button-group reveal-text delay-4" id="anim-buttons">
+                            <a href="404.html" class="btn-book" id="btn-hero-appointment">Book Service</a>
+                            <a href="404.html" class="btn-learn" id="btn-hero-learn">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Right: tuning technician Image -->
+                <div class="hero-image-column">
+                    <div class="tuning technician-image-wrapper reveal-image-right" id="tuning technician-img-container">
+                        <img src="assets/parts/img_1.webp" alt="Elegant model posing in premium design wear" class="tuning technician-img" id="interactive-tuning technician-img">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Statistics Section (Located Below Hero) -->
+        <section class="stats-section-container">
+            <div class="stats-card-wide reveal-scroll-up" id="statistics-card-bar">
+                <div class="stat-column">
+                    <div class="stat-number-wrapper">
+                        <span class="stat-number" data-target="500">0</span><span class="stat-suffix">+</span>
+                    </div>
+                    <p class="stat-label">Premium Part Brands</p>
+                </div>
+                
+                <div class="stat-column">
+                    <div class="stat-number-wrapper">
+                        <span class="stat-number" data-target="90">0</span><span class="stat-suffix">%</span>
+                    </div>
+                    <p class="stat-label">Client Satisfaction</p>
+                </div>
+                
+                <div class="stat-column">
+                    <div class="stat-number-wrapper">
+                        <span class="stat-number" data-target="15">0</span><span class="stat-suffix"> Years</span>
+                    </div>
+                    <p class="stat-label">Tuning Experience</p>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <!-- Healthline Tools Section -->
+        <section class="tools-section-container" id="tools-section-trigger">
+            
+            <!-- Floating Background Image (Gemini Generated Image) with parallax drift (Full Bleed) -->
+            <div class="tools-bg-image-wrapper" id="tools-bg-img" data-parallax-speed="0.012" aria-hidden="true"></div>
+            
+            <!-- Inner Centered Content Wrapper -->
+            <div class="tools-inner-content">
+                <!-- Animated Gradient Heading -->
+                <div class="section-header reveal-scroll-up">
+                    <span class="section-tagline">Automotive Tuning Garage</span>
+                    <h2 class="animated-gradient-heading">Exclusive Styling Services</h2>
+                    <div class="heading-line-decor"></div>
+                </div>
+
+                <!-- Row 1: Healthy Eating (Large) & Recipe/Macro/Calorie Stack (Small) -->
+                <div class="tools-row row-1">
+                    <!-- Large Card: Healthy Eating -->
+                    <div class="tool-card-large reveal-right-to-left delay-1" id="food-tool-card">
+                        <div class="tool-card-content">
+                            <h3 class="tool-card-title">Performance Tuning</h3>
+                            <p class="tool-card-desc">Experience the power of custom performance tuning and engine calibrations optimized for your vehicle specifications by our master tuning engineers.</p>
+                            <a href="404.html" class="btn-tool-visit">Book Consultation</a>
+                        </div>
+                        <div class="tool-card-image-wrap">
+                            <img src="assets/parts/img_4.webp" alt="Custom Performance Precision Service materials and design flatlay" class="tool-large-img">
+                        </div>
+                    </div>
+
+                    <!-- Right Stack: 3 Small Cards -->
+                    <div class="tool-card-stack reveal-right-to-left delay-2">
+                        <!-- Card 1 -->
+                        <div class="tool-card-small">
+                            <div class="tool-small-text">
+                                <h4 class="tool-small-title">Digital Diagnostics</h4>
+                                <p class="tool-small-desc">Get performance recommendations tailored to your vehicle specifications</p>
+                            </div>
+                            <a href="404.html" class="tool-small-arrow" aria-label="Go to Digital Diagnostics">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="tool-card-small">
+                            <div class="tool-small-text">
+                                <h4 class="tool-small-title">Fitment Calculator</h4>
+                                <p class="tool-small-desc">Find your perfect fit size across global luxury brands</p>
+                            </div>
+                            <a href="404.html" class="tool-small-arrow" aria-label="Go to Fitment Calculator">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="tool-card-small">
+                            <div class="tool-small-text">
+                                <h4 class="tool-small-title">Parts Library</h4>
+                                <p class="tool-small-desc">Browse our premium selection of merino wool, silk, and linen</p>
+                            </div>
+                            <a href="404.html" class="tool-small-arrow" aria-label="Go to Parts Library">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2: Pill/GLP-1/Tuning Bay Stack (Small) & Drug Directory (Large) -->
+                <div class="tools-row row-2">
+                    <!-- Left Stack: 3 Small Cards -->
+                    <div class="tool-card-stack reveal-right-to-left delay-3">
+                        <!-- Card 1 -->
+                        <div class="tool-card-small">
+                            <div class="tool-small-text">
+                                <h4 class="tool-small-title">Vehicle Styling</h4>
+                                <p class="tool-small-desc">Refresh and organize your closet with our personal tuning technicians</p>
+                            </div>
+                            <a href="404.html" class="tool-small-arrow" aria-label="Go to Vehicle Styling">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="tool-card-small">
+                            <div class="tool-small-text">
+                                <h4 class="tool-small-title">Track Testing</h4>
+                                <p class="tool-small-desc">Get early access to our seasonal runway design releases</p>
+                            </div>
+                            <a href="404.html" class="tool-small-arrow" aria-label="Go to Track Testing">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="tool-card-small">
+                            <div class="tool-small-text">
+                                <h4 class="tool-small-title">Tuning Bay</h4>
+                                <p class="tool-small-desc">Book a private service session at our Auto Parts Store showroom</p>
+                            </div>
+                            <a href="404.html" class="tool-small-arrow" aria-label="Go to Tuning Bay">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Large Card: Drug Directory -->
+                    <div class="tool-card-large reveal-right-to-left delay-4" id="drug-tool-card">
+                        <div class="tool-card-content">
+                            <h3 class="tool-card-title">Parts Directory: A to Z</h3>
+                            <p class="tool-card-desc">Explore our curated guide to part maintenance, seasonal coordinates, and component codes.</p>
+                            <a href="404.html" class="btn-tool-visit">Explore Directory</a>
+                        </div>
+                        <div class="tool-card-image-wrap">
+                            <img src="assets/parts/img_5.webp" alt="Luxury Automotive showroom custom components display" class="tool-large-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ===== Performance Tuning Process Section ===== -->
+        <section class="process-section" id="process-section-trigger">
+            <div class="process-inner">
+                <div class="section-header reveal-scroll-up">
+                    <span class="section-tagline">OUR CRAFT</span>
+                    <h2 class="animated-gradient-heading">The Performance Journey</h2>
+                    <div class="heading-line-decor"></div>
+                </div>
+
+                <div class="process-timeline reveal-scroll-up">
+                    <!-- Step 1 -->
+                    <div class="process-step">
+                        <div class="process-step-num">01</div>
+                        <div class="process-step-content">
+                            <h3 class="process-step-title">Build Consultation</h3>
+                            <p class="process-step-desc">Meet with a personal tuning technician to define your body profile, design options, and Vehicle Stance requirements.</p>
+                        </div>
+                    </div>
+                    <!-- Step 2 -->
+                    <div class="process-step">
+                        <div class="process-step-num">02</div>
+                        <div class="process-step-content">
+                            <h3 class="process-step-title">3D Scan & Fitment</h3>
+                            <p class="process-step-desc">Our advanced contact-free digitized sizing system records hundreds of data points for an immaculate pattern fit.</p>
+                        </div>
+                    </div>
+                    <!-- Step 3 -->
+                    <div class="process-step">
+                        <div class="process-step-num">03</div>
+                        <div class="process-step-content">
+                            <h3 class="process-step-title">Material & Part Choice</h3>
+                            <p class="process-step-desc">Choose from over 5,000 premium materials, including hand-selected wools, soft cashmeres, and silks from top mills.</p>
+                        </div>
+                    </div>
+                    <!-- Step 4 -->
+                    <div class="process-step">
+                        <div class="process-step-num">04</div>
+                        <div class="process-step-content">
+                            <h3 class="process-step-title">Precision Installation</h3>
+                            <p class="process-step-desc">Our master pattern-makers hand-draft and cut individual paper patterns unique to your exact measurements.</p>
+                        </div>
+                    </div>
+                    <!-- Step 5 -->
+                    <div class="process-step">
+                        <div class="process-step-num">05</div>
+                        <div class="process-step-content">
+                            <h3 class="process-step-title">Dyno Testing & Tuning</h3>
+                            <p class="process-step-desc">Experience private service sessions where minor adjustments are hand-altered to achieve perfect draping.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Custom Performance parts collections Section (Auto-Scrolling Carousel) ===== -->
+        <section class="devices-section" id="devices-section-trigger">
+
+            <!-- Section Header -->
+            <div class="devices-header reveal-scroll-up">
+                <span class="devices-tagline">CURATED COLLECTIONS</span>
+
+                <!-- Animated Split Heading -->
+                <h2 class="devices-heading">
+                    <span class="devices-heading-line1">Exquisite Seasonal</span><span class="devices-heading-line2">Automotive <span class="devices-heading-accent">Lines</span></span>
+                </h2>
+                <div class="devices-heading-bar"></div>
+                <p class="devices-subtext">Indulge in artisanal collections showcasing modern refinement, premium materials, and timeless design.</p>
+            </div>
+
+            <!-- Infinite Auto-Scroll Track Wrapper -->
+            <div class="devices-carousel-wrapper" id="devices-carousel-wrapper">
+                <div class="devices-track" id="devices-track">
+
+                    <!-- ===== Card Set 1 (original) ===== -->
+                    <div class="device-card">
+                        <div class="device-card-img-wrap">
+                            <img src="assets/parts/img_6.webp" alt="Engine Performance Components" class="device-card-img">
+                            <div class="device-card-img-overlay"></div>
+                        </div>
+                        <div class="device-card-body">
+                            <h3 class="device-card-title">Engine Performance</h3>
+                            <p class="device-card-desc">Turbochargers, cold air intakes, custom engine maps, and performance exhausts engineered to unleash maximum horsepower.</p>
+                        </div>
+                    </div>
+
+                    <div class="device-card">
+                        <div class="device-card-img-wrap">
+                            <img src="assets/parts/img_7.webp" alt="Suspension & Handling Upgrades" class="device-card-img">
+                            <div class="device-card-img-overlay"></div>
+                        </div>
+                        <div class="device-card-body">
+                            <h3 class="device-card-title">Suspension & Handling</h3>
+                            <p class="device-card-desc">Coilovers, sway bars, control arms, and high-performance lowering springs for razor-sharp handling and cornering control.</p>
+                        </div>
+                    </div>
+
+                    <div class="device-card">
+                        <div class="device-card-img-wrap">
+                            <img src="assets/parts/img_8.webp" alt="Performance Brakes Slotted Rotors" class="device-card-img">
+                            <div class="device-card-img-overlay"></div>
+                        </div>
+                        <div class="device-card-body">
+                            <h3 class="device-card-title">Brakes & Stopping Power</h3>
+                            <p class="device-card-desc">Ceramic brake pads, slotted and ventilated rotors, stainless steel lines, and heavy-duty calipers for ultimate stopping force.</p>
+                        </div>
+                    </div>
+
+                    <div class="device-card">
+                        <div class="device-card-img-wrap">
+                            <img src="assets/parts/img_9.webp" alt="Carbon Fiber Aerodynamic Parts" class="device-card-img">
+                            <div class="device-card-img-overlay"></div>
+                        </div>
+                        <div class="device-card-body">
+                            <h3 class="device-card-title">Carbon Fiber & Aero</h3>
+                            <p class="device-card-desc">Rear wings, front splitters, side skirts, and lightweight hoods designed to optimize aerodynamics and downforce.</p>
+                        </div>
+                    </div>
+
+                    <div class="device-card">
+                        <div class="device-card-img-wrap">
+                            <img src="assets/parts/img_6.webp" alt="Forged Alloy Wheels and Track Tires" class="device-card-img">
+                            <div class="device-card-img-overlay"></div>
+                        </div>
+                        <div class="device-card-body">
+                            <h3 class="device-card-title">Wheels & Tire Fitment</h3>
+                            <p class="device-card-desc">Forged alloy wheels, premium track tires, and custom offsets to achieve perfect stance and grip.</p>
+                        </div>
+                    </div>
+
+                    <div class="device-card">
+                        <div class="device-card-img-wrap">
+                            <img src="assets/parts/img_7.webp" alt="Alcantara Steering Wheel and Interior Trim" class="device-card-img">
+                            <div class="device-card-img-overlay"></div>
+                        </div>
+                        <div class="device-card-body">
+                            <h3 class="device-card-title">Premium Cabin Upgrades</h3>
+                            <p class="device-card-desc">Alcantara steering wheels, carbon fiber shift knobs, custom racing seats, and premium floor mats.</p>
+                        </div>
+                    </div>
+
+                    <div class="device-card">
+                        <div class="device-card-img-wrap">
+                            <img src="assets/parts/img_8.webp" alt="LED Headlights and Sequential Tail Lights" class="device-card-img">
+                            <div class="device-card-img-overlay"></div>
+                        </div>
+                        <div class="device-card-body">
+                            <h3 class="device-card-title">Lighting & Electrical</h3>
+                            <p class="device-card-desc">LED headlights, tail light assemblies, custom underglow, and high-performance battery setups.</p>
+                        </div>
+                    </div>
+
+                    <div class="device-card">
+                        <div class="device-card-img-wrap">
+                            <img src="assets/parts/img_9.webp" alt="OBD2 Scanners and Smart Dash Cams" class="device-card-img">
+                            <div class="device-card-img-overlay"></div>
+                        </div>
+                        <div class="device-card-body">
+                            <h3 class="device-card-title">Professional Diagnostics</h3>
+                            <p class="device-card-desc">OBD2 scanners, smart dash cams, customized sensor arrays, and precision gauges.</p>
+                        </div>
+                    </div>
+
+                    <!-- ===== Card Set 2 (duplicate for seamless infinite loop) ===== -->
+                    <div class="device-card" aria-hidden="true">
+                        <div class="device-card-img-wrap">
+                            <img src="assets/parts/img_6.webp" alt="Engine Performance Components" class="device-card-img">
+                            <div class="device-card-img-overlay"></div>
+                        </div>
+                        <div class="device-card-body">
+                            <h3 class="device-card-title">Engine Performance</h3>
+                            <p class="device-card-desc">Turbochargers, cold air intakes, custom engine maps, and performance exhausts engineered to unleash maximum horsepower.</p>
+                        </div>
+                    </div>
+
+                    <div class="device-card" aria-hidden="true">
+                        <div class="device-card-img-wrap">
+                            <img src="assets/parts/img_7.webp" alt="Suspension & Handling Upgrades" class="device-card-img">
+                            <div class="device-card-img-overlay"></div>
+                        </div>
+                        <div class="device-card-body">
+                            <h3 class="device-card-title">Suspension & Handling</h3>
+                            <p class="device-card-desc">Coilovers, sway bars, control arms, and high-performance lowering springs for razor-sharp handling and cornering control.</p>
+                        </div>
+                    </div>
+
+                    <div class="device-card" aria-hidden="true">
+                        <div class="device-card-img-wrap">
+                            <img src="assets/parts/img_8.webp" alt="Performance Brakes Slotted Rotors" class="device-card-img">
+                            <div class="device-card-img-overlay"></div>
+                        </div>
+                        <div class="device-card-body">
+                            <h3 class="device-card-title">Brakes & Stopping Power</h3>
+                            <p class="device-card-desc">Ceramic brake pads, slotted and ventilated rotors, stainless steel lines, and heavy-duty calipers for ultimate stopping force.</p>
+                        </div>
+                    </div>
+
+                    <div class="device-card" aria-hidden="true">
+                        <div class="device-card-img-wrap">
+                            <img src="assets/parts/img_9.webp" alt="Carbon Fiber Aerodynamic Parts" class="device-card-img">
+                            <div class="device-card-img-overlay"></div>
+                        </div>
+                        <div class="device-card-body">
+                            <h3 class="device-card-title">Carbon Fiber & Aero</h3>
+                            <p class="device-card-desc">Rear wings, front splitters, side skirts, and lightweight hoods designed to optimize aerodynamics and downforce.</p>
+                        </div>
+                    </div>
+
+                    <div class="device-card" aria-hidden="true">
+                        <div class="device-card-img-wrap">
+                            <img src="assets/parts/img_6.webp" alt="Forged Alloy Wheels and Track Tires" class="device-card-img">
+                            <div class="device-card-img-overlay"></div>
+                        </div>
+                        <div class="device-card-body">
+                            <h3 class="device-card-title">Wheels & Tire Fitment</h3>
+                            <p class="device-card-desc">Forged alloy wheels, premium track tires, and custom offsets to achieve perfect stance and grip.</p>
+                        </div>
+                    </div>
+
+                    <div class="device-card" aria-hidden="true">
+                        <div class="device-card-img-wrap">
+                            <img src="assets/parts/img_7.webp" alt="Alcantara Steering Wheel and Interior Trim" class="device-card-img">
+                            <div class="device-card-img-overlay"></div>
+                        </div>
+                        <div class="device-card-body">
+                            <h3 class="device-card-title">Premium Cabin Upgrades</h3>
+                            <p class="device-card-desc">Alcantara steering wheels, carbon fiber shift knobs, custom racing seats, and premium floor mats.</p>
+                        </div>
+                    </div>
+
+                    <div class="device-card" aria-hidden="true">
+                        <div class="device-card-img-wrap">
+                            <img src="assets/parts/img_8.webp" alt="LED Headlights and Sequential Tail Lights" class="device-card-img">
+                            <div class="device-card-img-overlay"></div>
+                        </div>
+                        <div class="device-card-body">
+                            <h3 class="device-card-title">Lighting & Electrical</h3>
+                            <p class="device-card-desc">LED headlights, tail light assemblies, custom underglow, and high-performance battery setups.</p>
+                        </div>
+                    </div>
+
+                    <div class="device-card" aria-hidden="true">
+                        <div class="device-card-img-wrap">
+                            <img src="assets/parts/img_9.webp" alt="OBD2 Scanners and Smart Dash Cams" class="device-card-img">
+                            <div class="device-card-img-overlay"></div>
+                        </div>
+                        <div class="device-card-body">
+                            <h3 class="device-card-title">Professional Diagnostics</h3>
+                            <p class="device-card-desc">OBD2 scanners, smart dash cams, customized sensor arrays, and precision gauges.</p>
+                        </div>
+                    </div>
+
+                </div><!-- end .devices-track -->
+            </div><!-- end .devices-carousel-wrapper -->
+
+        </section>
+
+        <!-- ===== Recommended Reads Section ===== -->
+        <section class="reads-section" id="reads-section-trigger">
+
+            <!-- Animated Background Blobs -->
+            <div class="reads-animated-bg">
+                <div class="reads-blob reads-blob-1"></div>
+                <div class="reads-blob reads-blob-2"></div>
+                <div class="reads-blob reads-blob-3"></div>
+            </div>
+
+            <!-- Section Header -->
+            <div class="reads-header reveal-scroll-up" id="reads-header">
+                <span class="reads-tagline">AUTOMOTIVE & PERFORMANCE INSIGHTS</span>
+                <h2 class="reads-heading">
+                    <span class="reads-word reads-word-1">Editorial</span><span class="reads-word reads-word-2"> <span class="reads-word-accent">Journal</span></span>
+                </h2>
+                <div class="reads-heading-underline"></div>
+                <p class="reads-subtext">Curated tuning guides, part comparisons, and maintenance tips handpicked by our expert tuning team.</p>
+            </div>
+
+            <!-- Filter Tab Row -->
+            <div class="reads-tabs-wrapper" id="reads-tabs-wrapper">
+                <div class="reads-tabs">
+                    <button class="reads-tab active" data-filter="all" id="tab-top-reads">Top reads</button>
+                    <button class="reads-tab" data-filter="Engine" id="tab-fitness">Engine</button>
+                    <button class="reads-tab" data-filter="Suspension" id="tab-mental">Suspension</button>
+                    <button class="reads-tab" data-filter="Exterior" id="tab-product">Exterior</button>
+                    <button class="reads-tab" data-filter="Interior" id="tab-recipes">Interior</button>
+                    <button class="reads-tab" data-filter="Lighting" id="tab-skin">Lighting</button>
+                </div>
+            </div>
+
+            <!-- Article Grid -->
+            <div class="reads-grid-wrapper">
+                <div class="reads-grid" id="reads-article-grid">
+
+                    <!-- FITNESS (2 cards) -->
+                    <article class="reads-card" data-category="Engine">
+                        <div class="reads-card-img-wrap">
+                            <img src="assets/parts/img_18.webp" alt="5 Essential Performance Upgrades for Track Season" class="reads-card-img">
+                            <div class="reads-card-img-shine"></div>
+                        </div>
+                        <div class="reads-card-content">
+                            <span class="reads-card-tag">Engine</span>
+                            <h3 class="reads-card-title">5 Essential Performance Upgrades for Track Season</h3>
+                            <p class="reads-card-excerpt">Discover the top parts that will dramatically improve your lap times and handling with minimal track setup.</p>
+                            <a href="404.html" class="reads-card-link">Read more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        </div>
+                    </article>
+                    <article class="reads-card" data-category="Engine">
+                        <div class="reads-card-img-wrap">
+                            <img src="assets/parts/img_19.webp" alt="Sustainable Silk Production" class="reads-card-img">
+                            <div class="reads-card-img-shine"></div>
+                        </div>
+                        <div class="reads-card-content">
+                            <span class="reads-card-tag">Engine</span>
+                            <h3 class="reads-card-title">Behind the Scenes: The Art of ECU Tuning</h3>
+                            <p class="reads-card-excerpt">Meet our calibration technicians who remap engine control units to safely unlock extra horsepower and torque.</p>
+                            <a href="404.html" class="reads-card-link">Read more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        </div>
+                    </article>
+
+                    <!-- MENTAL WELL-BEING (2 cards) -->
+                    <article class="reads-card" data-category="Suspension">
+                        <div class="reads-card-img-wrap">
+                            <img src="assets/parts/img_20.webp" alt="Performance Coilover Suspension Setup" class="reads-card-img">
+                            <div class="reads-card-img-shine"></div>
+                        </div>
+                        <div class="reads-card-content">
+                            <span class="reads-card-tag">Suspension</span>
+                            <h3 class="reads-card-title">How Performance Coilovers Improve Track Stability</h3>
+                            <p class="reads-card-excerpt">Learn how adjusting damping and ride height can improve chassis balance, grip levels, and cornering speeds.</p>
+                            <a href="404.html" class="reads-card-link">Read more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        </div>
+                    </article>
+                    <article class="reads-card" data-category="Suspension">
+                        <div class="reads-card-img-wrap">
+                            <img src="assets/parts/img_35.webp" alt="High-Performance Carbon-Ceramic Brakes" class="reads-card-img">
+                            <div class="reads-card-img-shine"></div>
+                        </div>
+                        <div class="reads-card-content">
+                            <span class="reads-card-tag">Suspension</span>
+                            <h3 class="reads-card-title">6 Tips to Care for and Preserve High-Performance Brakes</h3>
+                            <p class="reads-card-excerpt">Extend the life of your brake pads and rotors with our guide to proper bedding and heat cycling.</p>
+                            <a href="404.html" class="reads-card-link">Read more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        </div>
+                    </article>
+
+                    <!-- PRODUCT REVIEWS (2 cards) -->
+                    <article class="reads-card" data-category="Exterior">
+                        <div class="reads-card-img-wrap">
+                            <img src="assets/parts/img_36.webp" alt="Electric Sports Car Chassis" class="reads-card-img">
+                            <div class="reads-card-img-shine"></div>
+                        </div>
+                        <div class="reads-card-content">
+                            <span class="reads-card-tag">Exterior</span>
+                            <h3 class="reads-card-title">The Rise of Electric Performance in Modern Sports Cars</h3>
+                            <p class="reads-card-excerpt">We explore how modern hybrid and EV systems are being tuned for motorsport and extreme street performance.</p>
+                            <a href="404.html" class="reads-card-link">Read more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        </div>
+                    </article>
+                    <article class="reads-card" data-category="Exterior">
+                        <div class="reads-card-img-wrap">
+                            <img src="assets/parts/img_37.webp" alt="High-Performance Track Tires" class="reads-card-img">
+                            <div class="reads-card-img-shine"></div>
+                        </div>
+                        <div class="reads-card-content">
+                            <span class="reads-card-tag">Exterior</span>
+                            <h3 class="reads-card-title">The Ultimate Guide to Selecting Performance Tires</h3>
+                            <p class="reads-card-excerpt">From semi-slick compounds to treadwear ratings, understand what makes track-oriented tires grip the asphalt.</p>
+                            <a href="404.html" class="reads-card-link">Read more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        </div>
+                    </article>
+
+                    <!-- RECIPES (2 cards) -->
+                    <article class="reads-card" data-category="Interior">
+                        <div class="reads-card-img-wrap">
+                            <img src="assets/parts/img_38.webp" alt="Wheel Fitment Offset Diagram" class="reads-card-img">
+                            <div class="reads-card-img-shine"></div>
+                        </div>
+                        <div class="reads-card-content">
+                            <span class="reads-card-tag">Interior</span>
+                            <h3 class="reads-card-title">Selecting the Perfect Wheel Offset for Your Car</h3>
+                            <p class="reads-card-excerpt">A comprehensive guide explaining wheel offset, backspacing, bolt patterns, and fender clearance.</p>
+                            <a href="404.html" class="reads-card-link">Read more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        </div>
+                    </article>
+                    <article class="reads-card" data-category="Interior">
+                        <div class="reads-card-img-wrap">
+                            <img src="assets/parts/img_39.webp" alt="Front Splitters and Aero Parts" class="reads-card-img">
+                            <div class="reads-card-img-shine"></div>
+                        </div>
+                        <div class="reads-card-content">
+                            <span class="reads-card-tag">Interior</span>
+                            <h3 class="reads-card-title">Aero of the Season: Front Splitters vs. Wings</h3>
+                            <p class="reads-card-excerpt">How to combine aerodynamic splitters, side skirts, and rear wings for balanced front-to-rear downforce.</p>
+                            <a href="404.html" class="reads-card-link">Read more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        </div>
+                    </article>
+
+                    <!-- SKIN CARE (2 cards) -->
+                    <article class="reads-card" data-category="Lighting">
+                        <div class="reads-card-img-wrap">
+                            <img src="assets/parts/img_40.webp" alt="Vintage Racing Garage and Engine Building" class="reads-card-img">
+                            <div class="reads-card-img-shine"></div>
+                        </div>
+                        <div class="reads-card-content">
+                            <span class="reads-card-tag">Lighting</span>
+                            <h3 class="reads-card-title">The History of Tuning: From Garage to Racetrack</h3>
+                            <p class="reads-card-excerpt">Trace the rich heritage of custom engine building and how it evolved into computer-controlled remapping.</p>
+                            <a href="404.html" class="reads-card-link">Read more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        </div>
+                    </article>
+                    <article class="reads-card" data-category="Lighting">
+                        <div class="reads-card-img-wrap">
+                            <img src="assets/parts/img_41.webp" alt="Track Day Tools and Toolboxes" class="reads-card-img">
+                            <div class="reads-card-img-shine"></div>
+                        </div>
+                        <div class="reads-card-content">
+                            <span class="reads-card-tag">Lighting</span>
+                            <h3 class="reads-card-title">Track Day Packing: Master Essential Tools in 8 Items</h3>
+                            <p class="reads-card-excerpt">How to pack light for your track weekend with the most essential tools that fit in your trunk.</p>
+                            <a href="404.html" class="reads-card-link">Read more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        </div>
+                    </article>
+
+                </div><!-- end .reads-grid -->
+            </div>
+
+        </section>
+
+        <!-- ===== Why Choose Us Section ===== -->
+        <section class="why-choose-section" id="why-choose-trigger">
+
+            <!-- Subtle hex pattern background -->
+            <div class="why-bg-pattern" aria-hidden="true"></div>
+
+            <div class="why-inner">
+
+                <!-- LEFT: Stacked image block -->
+                <div class="why-left reveal-scroll-up">
+                    <div class="why-img-stack">
+                        <img
+                            src="assets/parts/img_10.webp"
+                            alt="automotive technician at work"
+                            class="why-main-img"
+                        >
+                        <!-- Floating Tuning Garage Hours card -->
+                        <div class="why-hours-card">
+                            <div class="why-hours-glow" aria-hidden="true"></div>
+                            <div class="why-hours-header">
+                                <span class="why-hours-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                                        <path d="M12 8V12L15 15" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <circle cx="12" cy="12" r="9" stroke="white" stroke-width="2"/>
+                                    </svg>
+                                </span>
+                                <span>Tuning Garage Hours</span>
+                            </div>
+                            <ul class="why-hours-list">
+                                <li><span>Mon – Fri</span><span>9AM – 6PM</span></li>
+                                <li><span>Saturday</span><span>10AM – 5PM</span></li>
+                                <li><span>Sunday</span><span class="why-closed">Closed</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT: Content -->
+                <div class="why-right">
+
+                    <!-- Header -->
+                    <div class="why-header reveal-scroll-up">
+                        <span class="why-tagline">
+                            <span class="why-tagline-dot"></span>
+                            Why Choose Us
+                        </span>
+                        <h2 class="why-heading">
+                            Setting the standard for<br>Custom Performance &amp; <span class="why-heading-accent">refined parts</span>
+                        </h2>
+                        <p class="why-desc">
+                            Through premium materials, certified master Tuning Specialists, and customer-first design, we create Auto Parts that elevate your personal presence.
+                        </p>
+                    </div>
+
+                    <!-- Features + inset image row -->
+                    <div class="why-features-row reveal-scroll-up">
+
+                        <!-- Feature list -->
+                        <div class="why-features-list">
+                            <div class="why-feature">
+                                <span class="why-feature-icon">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="10" stroke="#6EAC7D" stroke-width="2"/>
+                                        <path d="M7 12L10 15L17 8" stroke="#6EAC7D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </span>
+                                <div>
+                                    <h3>Design Performance Tuning Masters</h3>
+                                    <p>Our master Tuning Specialists and fit experts bring decades of combined experience from European Automotive Studios.</p>
+                                </div>
+                            </div>
+                            <div class="why-feature">
+                                <span class="why-feature-icon">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                                        <circle cx="12" cy="12" r="10" stroke="#6EAC7D" stroke-width="2"/>
+                                        <path d="M7 12L10 15L17 8" stroke="#6EAC7D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </span>
+                                <div>
+                                    <h3>Precision Custom Fit</h3>
+                                    <p>Our 3D custom measurement matrix ensures an absolutely flawless fit on the very first try.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Inset image -->
+                        <div class="why-inset-img">
+                            <img src="assets/parts/img_11.webp" alt="automotive facility interior">
+                        </div>
+
+                    </div>
+
+                    <!-- Footer: CTA + tuning technician profile -->
+                    <div class="why-footer reveal-scroll-up">
+                        <a href="404.html" class="why-btn">
+                            Learn More
+                            <span class="why-btn-icon">
+                                <svg width="13" height="13" viewBox="0 0 12 12" fill="none">
+                                    <path d="M2 10L10 2M10 2H4M10 2V8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                        </a>
+                        <div class="why-profile">
+                            <img src="assets/parts/img_13.webp" alt="Chief Creative Officer" class="why-profile-img">
+                            <div>
+                                <h4>Sarah Mitchell</h4>
+                                <p>Chief Creative Officer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- end .why-right -->
+            </div><!-- end .why-inner -->
+        </section>
+
+        <!-- ===== Our Recognitions Section ===== -->
+        <section class="achiev-section" id="achiev-trigger">
+
+            <!-- Floating decorative blobs -->
+            <div class="achiev-blob achiev-blob-1" aria-hidden="true"></div>
+            <div class="achiev-blob achiev-blob-2" aria-hidden="true"></div>
+
+            <div class="achiev-inner">
+
+                <!-- Section header -->
+                <div class="achiev-header reveal-scroll-up">
+                    <span class="achiev-tagline">
+                        <span class="achiev-tagline-dot"></span>
+                        Our Recognition
+                    </span>
+                    <h2 class="achiev-heading">Awards &amp; recognition<br>for design <span class="achiev-heading-accent">excellence</span></h2>
+                </div>
+
+                <!-- Main content grid -->
+                <div class="achiev-grid">
+
+                    <!-- LEFT: Interactive display card -->
+                    <div class="achiev-display reveal-scroll-up" id="achievDisplay">
+
+                        <!-- Main photo -->
+                        <div class="achiev-photo-wrap">
+                            <img
+                                src="assets/parts/img_43.webp"
+                                alt="Award ceremony"
+                                class="achiev-photo"
+                                id="achievPhoto"
+                            >
+                            <!-- Overlay pill -->
+                            <div class="achiev-photo-pill">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+                                <span id="achievPillYear">1999</span>
+                            </div>
+                        </div>
+
+                        <!-- Info card overlapping the photo -->
+                        <div class="achiev-info-card">
+                            <div class="achiev-info-card-glow" aria-hidden="true"></div>
+                            <p class="achiev-outline-year" id="achievYear">1999</p>
+                            <div class="achiev-trophy-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="8" r="7"/>
+                                    <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/>
+                                </svg>
+                            </div>
+                            <p class="achiev-info-desc" id="achievDesc">
+                                Recognised for our unwavering commitment to precision, safety, and excellence in client care services.
+                            </p>
+                            <a href="404.html" class="achiev-know-more">Know More <i class="fa-solid fa-arrow-right" style="margin-left: 4px;"></i></a>
+                        </div>
+
+                    </div>
+
+                    <!-- RIGHT: Interactive list -->
+                    <div class="achiev-list-col reveal-scroll-up">
+                        <p class="achiev-list-intro">
+                            We believe every individual deserves Auto Part body profiles that bring out their true confidence. Our mission drives us to craft excellence.
+                        </p>
+
+                        <div class="achiev-items" id="achievItems">
+
+                            <div class="achiev-item active" data-index="0">
+                                <span class="achiev-item-year">1999</span>
+                                <div class="achiev-item-body">
+                                    <h3>Best Performance Tuning Shop</h3>
+                                    <p>Awarded for outstanding contribution to sustainable luxury and custom Precision Service.</p>
+                                </div>
+                                <a href="404.html" class="achiev-item-arrow">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                                </a>
+                            </div>
+
+                            <div class="achiev-item" data-index="1">
+                                <span class="achiev-item-year">2005</span>
+                                <div class="achiev-item-body">
+                                    <h3>Sustainable Automotive Award</h3>
+                                    <p>Recognised for sourcing 100% organic, traceable fibers and carbon-neutral processes.</p>
+                                </div>
+                                <a href="404.html" class="achiev-item-arrow">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                                </a>
+                            </div>
+
+                            <div class="achiev-item" data-index="2">
+                                <span class="achiev-item-year">2012</span>
+                                <div class="achiev-item-body">
+                                    <h3>Excellence in Design &amp; Craft</h3>
+                                    <p>Three consecutive years awarded highest honors for vehicle styling, suspension setup, and safety engineering.</p>
+                                </div>
+                                <a href="404.html" class="achiev-item-arrow">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                                </a>
+                            </div>
+
+                            <div class="achiev-item" data-index="3">
+                                <span class="achiev-item-year">2020</span>
+                                <div class="achiev-item-body">
+                                    <h3>Best Custom Car Shop Global</h3>
+                                    <p>Recognized by international tuning associations for Custom Performance performance calibration services.</p>
+                                </div>
+                                <a href="404.html" class="achiev-item-arrow">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div><!-- end .achiev-grid -->
+            </div><!-- end .achiev-inner -->
+        </section>
+
+        <!-- ===== Benefits & Features Section ===== -->
+        <section class="benefits-section" id="benefits-section-trigger">
+            <div class="benefits-inner">
+                
+                <!-- Section Header -->
+                <div class="benefits-header reveal-scroll-up">
+                    <span class="benefits-tagline">
+                        <span class="benefits-tagline-dot"></span>
+                        Key Advantages
+                    </span>
+                    <h2 class="benefits-heading">Why discerning customers<br>choose <span class="benefits-heading-accent">Stackly</span></h2>
+                </div>
+
+                <div class="benefits-grid">
+                    <!-- Benefit Card 1 -->
+                    <div class="benefit-wrap reveal-scroll-up delay-1">
+                        <div class="benefit-overlay">
+                            <div class="benefit-overlay-content">
+                                <span class="benefit-tag">PRECISION</span>
+                                <h3>Precision Tuning</h3>
+                            </div>
+                            <div class="benefit-image-content"
+                                style="background-image: url('assets/parts/img_15.webp');">
+                            </div>
+                            <div class="benefit-dots">
+                                <div class="benefit-dot"></div>
+                                <div class="benefit-dot"></div>
+                                <div class="benefit-dot"></div>
+                            </div>
+                        </div>
+                        <div class="benefit-text-reveal">
+                            <ul class="checkmark-list-mini">
+                                <li>
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg> Timeless Styles
+                                </li>
+                                <li>
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg> Premium Finishes
+                                </li>
+                                <li>
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg> Custom Details
+                                </li>
+                            </ul>
+                            <p>Our patterns are cut by hand to fit the unique curvature and posture of your body profile.</p>
+                        </div>
+                    </div>
+
+                    <!-- Benefit Card 2 -->
+                    <div class="benefit-wrap reveal-scroll-up delay-2">
+                        <div class="benefit-overlay">
+                            <div class="benefit-overlay-content">
+                                <span class="benefit-tag">CARE</span>
+                                <h3>Premium Engineering</h3>
+                            </div>
+                            <div class="benefit-image-content"
+                                style="background-image: url('assets/parts/img_11.webp');">
+                            </div>
+                            <div class="benefit-dots">
+                                <div class="benefit-dot"></div>
+                                <div class="benefit-dot"></div>
+                                <div class="benefit-dot"></div>
+                            </div>
+                        </div>
+                        <div class="benefit-text-reveal">
+                            <ul class="checkmark-list-mini">
+                                <li>
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg> Traceable Sourcing
+                                </li>
+                                <li>
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg> Artisanal Weaves
+                                </li>
+                                <li>
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg> Organic Fibers
+                                </li>
+                            </ul>
+                            <p>We source the finest cashmere, linen, and silk from family-owned mills in Italy and Japan.</p>
+                        </div>
+                    </div>
+
+                    <!-- Benefit Card 3 -->
+                    <div class="benefit-wrap reveal-scroll-up delay-3">
+                        <div class="benefit-overlay">
+                            <div class="benefit-overlay-content">
+                                <span class="benefit-tag">MODERN</span>
+                                <h3>Smart Diagnostics</h3>
+                            </div>
+                            <div class="benefit-image-content"
+                                style="background-image: url('assets/parts/img_12.webp');">
+                            </div>
+                            <div class="benefit-dots">
+                                <div class="benefit-dot"></div>
+                                <div class="benefit-dot"></div>
+                                <div class="benefit-dot"></div>
+                            </div>
+                        </div>
+                        <div class="benefit-text-reveal">
+                            <ul class="checkmark-list-mini">
+                                <li>
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg> Fit Profile Saver
+                                </li>
+                                <li>
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg> Digital Vehicle Stance
+                                </li>
+                                <li>
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg> One-Click Styling
+                                </li>
+                            </ul>
+                            <p>A connected styling portal that stores your fits and makes order updates effortless.</p>
+                        </div>
+                    </div>
+
+                    <!-- Benefit Card 4 -->
+                    <div class="benefit-wrap reveal-scroll-up delay-4">
+                        <div class="benefit-overlay">
+                            <div class="benefit-overlay-content">
+                                <span class="benefit-tag">INTELLIGENT</span>
+                                <h3>AI Fitment Optimizer</h3>
+                            </div>
+                            <div class="benefit-image-content"
+                                style="background-image: url('assets/parts/img_14.webp');">
+                            </div>
+                            <div class="benefit-dots">
+                                <div class="benefit-dot"></div>
+                                <div class="benefit-dot"></div>
+                                <div class="benefit-dot"></div>
+                            </div>
+                        </div>
+                        <div class="benefit-text-reveal">
+                            <ul class="checkmark-list-mini">
+                                <li>
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg> Style Prediction
+                                </li>
+                                <li>
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg> Smart Coordinates
+                                </li>
+                                <li>
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg> Precise Cutting
+                                </li>
+                            </ul>
+                            <p>Utilizing body-contour algorithms to recommend coordinates and cut patterns with absolute precision.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature Strip -->
+                <div class="feature-strip reveal-scroll-up">
+                    <div class="feature-item-strip">
+                        <svg class="strip-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                        </svg>
+                        <div class="strip-text">
+                            <strong>Global Delivery</strong><span>Secure tracked shipping</span>
+                        </div>
+                    </div>
+                    <div class="feature-item-strip">
+                        <svg class="strip-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+                            <line x1="1" y1="10" x2="23" y2="10"></line>
+                        </svg>
+                        <div class="strip-text">
+                            <strong>Custom Performance Consults</strong><span>One-on-one digital sessions</span>
+                        </div>
+                    </div>
+                    <div class="feature-item-strip">
+                        <svg class="strip-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                        <div class="strip-text">
+                            <strong>Auto Parts Club</strong><span>Exclusive member benefits</span>
+                        </div>
+                    </div>
+                    <div class="feature-item-strip">
+                        <svg class="strip-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                        <div class="strip-text">
+                            <strong>24/7 Support</strong><span>On-call fitment assistance</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Seasonal Editorial Lookbook Section ===== -->
+        <section class="lookbook-section" id="lookbook-section-trigger">
+            <div class="lookbook-inner">
+                <div class="section-header reveal-scroll-up">
+                    <span class="section-tagline">EDITORIAL</span>
+                    <h2 class="animated-gradient-heading">A/W Performance Lookbook</h2>
+                    <div class="heading-line-decor"></div>
+                </div>
+
+                <div class="lookbook-grid reveal-scroll-up">
+                    <!-- Card 1 -->
+                    <div class="lookbook-card">
+                        <div class="lookbook-img-wrap">
+                            <img src="assets/parts/img_13.webp" alt="High-performance ventilated carbon-ceramic brake system" class="lookbook-img">
+                            <div class="lookbook-overlay">
+                                <span class="lookbook-category">Look 01</span>
+                                <h3 class="lookbook-title">Precision Stopping</h3>
+                                <p class="lookbook-desc">A study in high-end braking performance, featuring lightweight slotted carbon-ceramic rotors and 6-piston monobloc calipers.</p>
+                                <a href="404.html" class="lookbook-btn">Explore Look</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="lookbook-card">
+                        <div class="lookbook-img-wrap">
+                            <img src="assets/parts/img_14.webp" alt="Forged light-alloy performance wheels" class="lookbook-img">
+                            <div class="lookbook-overlay">
+                                <span class="lookbook-category">Look 02</span>
+                                <h3 class="lookbook-title">Forged Stance</h3>
+                                <p class="lookbook-desc">Perfectly balanced multi-spoke forged monobloc wheels designed to reduce unsprung mass and improve steering response.</p>
+                                <a href="404.html" class="lookbook-btn">Explore Look</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="lookbook-card">
+                        <div class="lookbook-img-wrap">
+                            <img src="assets/parts/img_15.webp" alt="Carbon fiber aerodynamic rear wing" class="lookbook-img">
+                            <div class="lookbook-overlay">
+                                <span class="lookbook-category">Look 03</span>
+                                <h3 class="lookbook-title">Aerodynamic Downforce</h3>
+                                <p class="lookbook-desc">Luxurious autoclaved carbon fiber rear wing with adjustable angles to optimize track downforce and stability.</p>
+                                <a href="404.html" class="lookbook-btn">Explore Look</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Our Automotive Experts Section ===== -->
+        <section class="experts-section" id="experts-section-trigger">
+            
+            <!-- Animated Custom Background -->
+            <div class="experts-animated-bg">
+                <div class="cross-shape cross-1"></div>
+                <div class="cross-shape cross-2"></div>
+                <div class="cross-shape cross-3"></div>
+                <div class="cross-shape cross-4"></div>
+                <div class="cross-shape cross-5"></div>
+            </div>
+
+            <!-- Section Header -->
+            <div class="experts-header reveal-scroll-up">
+                <span class="experts-tagline">Our Designers</span>
+                <h2 class="experts-heading">Our master tuning technicians &amp; designers</h2>
+            </div>
+
+            <!-- Infinite Scroll Carousel -->
+            <div class="experts-carousel-wrapper">
+                <div class="experts-track">
+                    <!-- Original 6 Cards -->
+                    <!-- Card 1 -->
+                    <div class="expert-card">
+                        <div class="expert-img-border">
+                            <img src="assets/expert_1.webp" alt="Jenifer.L - Chief Calibration Engineer" class="expert-img">
+                        </div>
+                        <div class="expert-socials">
+                            <a href="404.html" class="social-icon" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+                            <a href="404.html" class="social-icon" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                            <a href="404.html" class="social-icon" aria-label="Email"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg></a>
+                        </div>
+                        <h3 class="expert-name">Jenifer.L</h3>
+                        <p class="expert-role">Chief Calibration Engineer</p>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="expert-card">
+                        <div class="expert-img-border">
+                            <img src="assets/expert_2.webp" alt="Kevin.P - Aerodynamics Specialist" class="expert-img">
+                        </div>
+                        <div class="expert-socials">
+                            <a href="404.html" class="social-icon" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+                            <a href="404.html" class="social-icon" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                            <a href="404.html" class="social-icon" aria-label="Email"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg></a>
+                        </div>
+                        <h3 class="expert-name">Kevin.P</h3>
+                        <p class="expert-role">Aerodynamics Specialist</p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="expert-card">
+                        <div class="expert-img-border">
+                            <img src="assets/expert_3.webp" alt="Sarah.Tr - Chief Calibration Engineer" class="expert-img">
+                        </div>
+                        <div class="expert-socials">
+                            <a href="404.html" class="social-icon" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+                            <a href="404.html" class="social-icon" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                            <a href="404.html" class="social-icon" aria-label="Email"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg></a>
+                        </div>
+                        <h3 class="expert-name">Sarah.Tr</h3>
+                        <p class="expert-role">Chief Calibration Engineer</p>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="expert-card">
+                        <div class="expert-img-border">
+                            <img src="assets/expert_4.webp" alt="Martin.M - Suspension Technician" class="expert-img">
+                        </div>
+                        <div class="expert-socials">
+                            <a href="404.html" class="social-icon" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+                            <a href="404.html" class="social-icon" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                            <a href="404.html" class="social-icon" aria-label="Email"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg></a>
+                        </div>
+                        <h3 class="expert-name">Martin.M</h3>
+                        <p class="expert-role">Suspension Technician</p>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="expert-card">
+                        <div class="expert-img-border">
+                            <img src="assets/expert_5.webp" alt="Mery.K - Fitment Advisor" class="expert-img">
+                        </div>
+                        <div class="expert-socials">
+                            <a href="404.html" class="social-icon" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+                            <a href="404.html" class="social-icon" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                            <a href="404.html" class="social-icon" aria-label="Email"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg></a>
+                        </div>
+                        <h3 class="expert-name">Mery.K</h3>
+                        <p class="expert-role">Fitment Advisor</p>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="expert-card">
+                        <div class="expert-img-border">
+                            <img src="assets/expert_6.webp" alt="peter.B - Master Fabricator" class="expert-img">
+                        </div>
+                        <div class="expert-socials">
+                            <a href="404.html" class="social-icon" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+                            <a href="404.html" class="social-icon" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                            <a href="404.html" class="social-icon" aria-label="Email"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg></a>
+                        </div>
+                        <h3 class="expert-name">peter.B</h3>
+                        <p class="expert-role">Master Fabricator</p>
+                    </div>
+
+                    <!-- DUPLICATED 6 CARDS FOR INFINITE SCROLL -->
+                    <!-- Card 1 -->
+                    <div class="expert-card" aria-hidden="true">
+                        <div class="expert-img-border">
+                            <img src="assets/expert_1.webp" alt="Jenifer.L - Chief Calibration Engineer" class="expert-img">
+                        </div>
+                        <div class="expert-socials">
+                            <a href="404.html" class="social-icon" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+                            <a href="404.html" class="social-icon" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                            <a href="404.html" class="social-icon" aria-label="Email"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg></a>
+                        </div>
+                        <h3 class="expert-name">Jenifer.L</h3>
+                        <p class="expert-role">Chief Calibration Engineer</p>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="expert-card" aria-hidden="true">
+                        <div class="expert-img-border">
+                            <img src="assets/expert_2.webp" alt="Kevin.P - Aerodynamics Specialist" class="expert-img">
+                        </div>
+                        <div class="expert-socials">
+                            <a href="404.html" class="social-icon" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+                            <a href="404.html" class="social-icon" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                            <a href="404.html" class="social-icon" aria-label="Email"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg></a>
+                        </div>
+                        <h3 class="expert-name">Kevin.P</h3>
+                        <p class="expert-role">Aerodynamics Specialist</p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="expert-card" aria-hidden="true">
+                        <div class="expert-img-border">
+                            <img src="assets/expert_3.webp" alt="Sarah.Tr - Chief Calibration Engineer" class="expert-img">
+                        </div>
+                        <div class="expert-socials">
+                            <a href="404.html" class="social-icon" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+                            <a href="404.html" class="social-icon" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                            <a href="404.html" class="social-icon" aria-label="Email"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg></a>
+                        </div>
+                        <h3 class="expert-name">Sarah.Tr</h3>
+                        <p class="expert-role">Chief Calibration Engineer</p>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="expert-card" aria-hidden="true">
+                        <div class="expert-img-border">
+                            <img src="assets/expert_4.webp" alt="Martin.M - Suspension Technician" class="expert-img">
+                        </div>
+                        <div class="expert-socials">
+                            <a href="404.html" class="social-icon" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+                            <a href="404.html" class="social-icon" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                            <a href="404.html" class="social-icon" aria-label="Email"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg></a>
+                        </div>
+                        <h3 class="expert-name">Martin.M</h3>
+                        <p class="expert-role">Suspension Technician</p>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="expert-card" aria-hidden="true">
+                        <div class="expert-img-border">
+                            <img src="assets/expert_5.webp" alt="Mery.K - Fitment Advisor" class="expert-img">
+                        </div>
+                        <div class="expert-socials">
+                            <a href="404.html" class="social-icon" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+                            <a href="404.html" class="social-icon" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                            <a href="404.html" class="social-icon" aria-label="Email"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg></a>
+                        </div>
+                        <h3 class="expert-name">Mery.K</h3>
+                        <p class="expert-role">Fitment Advisor</p>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="expert-card" aria-hidden="true">
+                        <div class="expert-img-border">
+                            <img src="assets/expert_6.webp" alt="peter.B - Master Fabricator" class="expert-img">
+                        </div>
+                        <div class="expert-socials">
+                            <a href="404.html" class="social-icon" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+                            <a href="404.html" class="social-icon" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                            <a href="404.html" class="social-icon" aria-label="Email"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg></a>
+                        </div>
+                        <h3 class="expert-name">peter.B</h3>
+                        <p class="expert-role">Master Fabricator</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Testimonials Section ===== -->
+        <section class="testimonials-section" id="testimonials-section">
+            <div class="testimonials-bg"></div>
+            
+            <div class="testimonials-header reveal-scroll-up">
+                <span class="testimonials-tagline">TESTIMONIALS</span>
+                <h2 class="testimonials-heading">What Our Clients Say</h2>
+                <p class="testimonials-subheading">Trusted by executives, artists, and Automotive connoisseurs across the globe.</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <!-- Card 1 -->
+                <div class="testimonial-card reveal-scroll-up">
+                    <div class="testimonial-top">
+                        <div class="stars">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                        </div>
+                        <span class="testimonial-org">MOTOR PERFORMANCE DIRECT</span>
+                    </div>
+                    <p class="testimonial-quote">"Stackly's engine calibration service is completely transformative. The horsepower gains are linear and the build quality is unmatched. It has elevated my driving experience."</p>
+                    <hr class="testimonial-divider">
+                    <div class="testimonial-footer">
+                        <img src="assets/expert_2.webp" alt="James Hoffman" class="testimonial-author-img">
+                        <div class="testimonial-author-info">
+                            <h4 class="testimonial-author-name">James Hoffman</h4>
+                            <p class="testimonial-author-role">Performance Editor<br><span>Motor Performance Direct</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="testimonial-card reveal-scroll-up delay-1">
+                    <div class="testimonial-top">
+                        <div class="stars">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                        </div>
+                        <span class="testimonial-org">THE TRACK JOURNAL</span>
+                    </div>
+                    <p class="testimonial-quote">"The parts fitment and dyno tuning service at Stackly is truly unmatched. Their mechanics are attentive, intuitive, and provide world-class setup advice."</p>
+                    <hr class="testimonial-divider">
+                    <div class="testimonial-footer">
+                        <img src="assets/expert_1.webp" alt="Priya Nair" class="testimonial-author-img">
+                        <div class="testimonial-author-info">
+                            <h4 class="testimonial-author-name">Priya Nair</h4>
+                            <p class="testimonial-author-role">Lead Mechanic<br><span>The Track Journal</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="testimonial-card reveal-scroll-up delay-2">
+                    <div class="testimonial-top">
+                        <div class="stars">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                        </div>
+                        <span class="testimonial-org">SUPERCAR WEEKLY</span>
+                    </div>
+                    <p class="testimonial-quote">"An exceptional online and offline experience. The digital vehicle spec profile is incredibly accurate, making ordering new performance parts effortlessly."</p>
+                    <hr class="testimonial-divider">
+                    <div class="testimonial-footer">
+                        <img src="assets/expert_4.webp" alt="Mark Johnson" class="testimonial-author-img">
+                        <div class="testimonial-author-info">
+                            <h4 class="testimonial-author-name">Mark Johnson</h4>
+                            <p class="testimonial-author-role">Automotive Critic<br><span>Supercar Weekly</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="testimonial-card reveal-scroll-up delay-1">
+                    <div class="testimonial-top">
+                        <div class="stars">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                        </div>
+                        <span class="testimonial-org">LONDON TRACK QUARTERLY</span>
+                    </div>
+                    <p class="testimonial-quote">"The precision of their custom-fit suspension coilovers is second to none. We have seen a remarkable standard of craftsmanship in every single setup."</p>
+                    <hr class="testimonial-divider">
+                    <div class="testimonial-footer">
+                        <img src="assets/expert_3.webp" alt="Sarah Lee" class="testimonial-author-img">
+                        <div class="testimonial-author-info">
+                            <h4 class="testimonial-author-name">Sarah Lee</h4>
+                            <p class="testimonial-author-role">Senior Suspension Technician<br><span>London Automotive Quarterly</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="testimonial-card reveal-scroll-up delay-2">
+                    <div class="testimonial-top">
+                        <div class="stars">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                        </div>
+                        <span class="testimonial-org">TUNER CLASS JOURNAL</span>
+                    </div>
+                    <p class="testimonial-quote">"Unparalleled engine build quality and carbon aerodynamics. The custom maps are smooth and powerful. An absolute track day essential."</p>
+                    <hr class="testimonial-divider">
+                    <div class="testimonial-footer">
+                        <img src="assets/expert_6.webp" alt="Robert Chen" class="testimonial-author-img">
+                        <div class="testimonial-author-info">
+                            <h4 class="testimonial-author-name">Robert Chen</h4>
+                            <p class="testimonial-author-role">Motorsports Critic<br><span>Tuner Class Journal</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="testimonial-card reveal-scroll-up delay-3">
+                    <div class="testimonial-top">
+                        <div class="stars">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
+                        </div>
+                        <span class="testimonial-org">AUTO PARTS DIRECT</span>
+                    </div>
+                    <p class="testimonial-quote">"From tuning session to final delivery, the experience has been flawless. Their attention to minor details makes each component a work of engineering art."</p>
+                    <hr class="testimonial-divider">
+                    <div class="testimonial-footer">
+                        <img src="assets/expert_5.webp" alt="Amanda Torres" class="testimonial-author-img">
+                        <div class="testimonial-author-info">
+                            <h4 class="testimonial-author-name">Amanda Torres</h4>
+                            <p class="testimonial-author-role">Chief Editor<br><span>Auto Parts Direct</span></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+    <!-- ===== Footer ===== -->
+    <footer class="site-footer" id="site-footer">
+        <div class="footer-bg-anim"></div>
+        <div class="footer-inner">
+
+            <!-- Col 1: Brand -->
+            <div class="footer-col footer-brand-col">
+                <a href="index.html" class="footer-logo-link"><img src="assets/home/stackly logo orange.webp" alt="STACKLY Logo" class="footer-logo"></a>
+                <p class="footer-tagline">At Stackly, we deliver high-performance parts and custom vehicle tuning focused on quality, reliability, and precision engineering.</p>
+                <div class="footer-contact-details">
+                    <a href="tel:+18005551234" class="footer-contact-item">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 14a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.62 3h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 10.09a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 17.92z"/></svg>
+                        +1 (800) 555-4321
+                    </a>
+                    <a href="mailto:concierge@stackly.com" class="footer-contact-item">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        concierge@stackly.com
+                    </a>
+                </div>
+            </div>
+
+            <!-- Col 2: Office -->
+                        <div class="footer-col footer-office-col">
+                <h4 class="footer-col-title">Office</h4>
+                <address class="footer-address">
+                    Salem Shop,<br>
+                    MMR Complex, Chinna Thirupathi,<br>
+                    near Chinna Muniyappan Kovil,<br>
+                    Salem, Tamil Nadu 636008
+                </address>
+                <!-- Embedded Google Map -->
+                <div class="footer-map" style="margin-top: 12px; border-radius: 8px; overflow: hidden; height: 100px; border: 1px solid rgba(255,255,255,0.1);">
+                    <iframe src="https://maps.google.com/maps?q=MMR%20Complex,%20Chinna%20Thirupathi,%20near%20Chinna%20Muniyappan%20Kovil,%20Salem,%20Tamil%20Nadu%20636008&t=&z=14&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+
+            <!-- Col 3: Links -->
+            <div class="footer-col footer-links-col">
+                <h4 class="footer-col-title">Links</h4>
+                <nav class="footer-nav">
+                    <a href="index.html" class="footer-nav-link">Home</a>
+                    <a href="about.html" class="footer-nav-link">About us</a>
+                    <a href="service.html" class="footer-nav-link">Service</a>
+                    <a href="blog.html" class="footer-nav-link">Blog</a>
+                    <a href="contact.html" class="footer-nav-link">Contact</a>
+                    <a href="login.html" class="footer-nav-link">Login</a>
+                    <a href="signup.html" class="footer-nav-link">Signup</a>
+                </nav>
+            </div>
+
+            <!-- Col 4: Follow Us -->
+            <div class="footer-col footer-social-col">
+                <h4 class="footer-col-title">Follow us</h4>
+                <div class="footer-social-icons">
+                    <a href="404.html" class="footer-social-btn" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                    </a>
+                    <a href="404.html" class="footer-social-btn" aria-label="X (Twitter)">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.748l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </a>
+                    <a href="404.html" class="footer-social-btn" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                    </a>
+                   <a href="404.html" class="footer-social-btn" aria-label="YouTube">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.95C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96C1 8.12 1 12 1 12s0 3.88.46 5.58a2.78 2.78 0 0 0 1.95 1.95C5.12 20 12 20 12 20s6.88 0 8.59-.47a2.78 2.78 0 0 0 1.95-1.95C23 15.88 23 12 23 12s0-3.88-.46-5.58z"/><polygon fill="currentColor" stroke="none" points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p class="footer-copy">&copy; 2025 Stackly Auto Parts. All rights reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <span>·</span>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link the external javascript file containing advanced interactivity -->
+    <script src="js/loading.js"></script>`r`n    <script src="js/script.js"></script>
+    <script src="js/cart-helper.js"></script>
+</body>
+</html>
+
+
+
