@@ -115,6 +115,8 @@
             if (!hamburger.dataset.hasMenuListener) {
                 hamburger.dataset.hasMenuListener = "true";
                 
+                const pill = hamburger.closest(".navbar-pill");
+                
                 hamburger.addEventListener("click", (e) => {
                     e.preventDefault();
                     e.stopPropagation();
@@ -122,13 +124,28 @@
                     hamburger.setAttribute("aria-expanded", !expanded);
                     hamburger.classList.toggle("active");
                     navLinks.classList.toggle("active");
+                    
+                    if (pill) {
+                        pill.classList.toggle("menu-active");
+                    }
+                    
+                    if (navLinks.classList.contains("active")) {
+                        document.body.style.overflow = "hidden";
+                    } else {
+                        document.body.style.overflow = "";
+                    }
                 });
                 
-                document.querySelectorAll(".nav-item").forEach(item => {
+                // Close menu when clicking any link inside (including nav items and mobile action buttons)
+                navLinks.querySelectorAll("a").forEach(item => {
                     item.addEventListener("click", () => {
                         hamburger.classList.remove("active");
                         navLinks.classList.remove("active");
                         hamburger.setAttribute("aria-expanded", "false");
+                        if (pill) {
+                            pill.classList.remove("menu-active");
+                        }
+                        document.body.style.overflow = "";
                     });
                 });
             }
